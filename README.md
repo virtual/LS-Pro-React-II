@@ -4,13 +4,14 @@
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
-	* arrow functions
-	* state
-	* constructor
-	* setState - setState with a callback function and setState with an object passed in
-	* .bind
-	* functional components vs class components
-  	* onClick
+	* arrow functions - a shorter way to write a function that has only a simple return statement
+	* state - a variable accessed and updated by a react component to tell how to interpret information
+	* constructor - used for creating objects of a standard type, can edit prototype to add methods
+	* setState with a callback function - after setState is completed, it will run the callback function
+	* setState with an object passed in - includes keys that will be updated
+	* .bind - used so that a function will be able to reference "this" as called by the react component
+	* functional components vs class components - functional is used for simple rendering of props; class is used for more advanced components requiring state and functions
+  	* onClick - an html value that calls a react function
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.

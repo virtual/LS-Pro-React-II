@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App"> 
-        <NavBar title={'clock'}/>
+        <NavBar title={'The Face of Time'}/>
         <Clock/>
       </div>
     );
